@@ -9,6 +9,10 @@ html {
     height:100%;
 }            
             
+hgroup {
+    width:100%;
+    height:100%;
+}
 .main-header {
     width:100%;
     height:80px;
@@ -18,6 +22,10 @@ html {
     width:80%;
     height:80px;
     margin:0 auto;
+}
+
+.element-style {
+    margin:25px 0px 20px;
 }
 
 .app-logo {
@@ -61,15 +69,16 @@ html {
     background-image:url('../img/slider/bg-slider1.jpg');
     background-repeat:no-repeat;
     background-size:cover;
+    margin-top:40px;
 }
 
 /* main container */
 
 .main-container {
     width:80%;
-    height:100%;
-    background-color:green;
-    margin:0 auto;
+    height:auto;
+    overflow:auto;
+    margin:0px auto 50px auto;
 }
 
 /*top banner*/
@@ -80,6 +89,7 @@ html {
     background-image:url("../img/sm-top-banner.png");
     background-repeat:no-repeat;
     background-size:cover;
+    margin: 20px auto;
 }
 
 /* main content container */
@@ -90,20 +100,17 @@ html {
 }
 
 .content {
-    width:70%;
+    width:72.5%;
     height:100%;
-    padding:1% 2.5%;
+    padding:0% 2.5% 0% 0%;
     float:left;
-    background-color:purple;
 }
 
 
 /*sidebar*/
 .right-sidebar {
-    width:20%;
-    height:100%;
-    padding:1% 2.5%;
-    background-color:orange;
+    width:25%;
+    height:1000px;
     float:right;
 }
 
@@ -118,7 +125,8 @@ html {
 .sidebar-banner {
     width:100%;
     height:100%;
-    background-image:url("../img/bg-sidebar-banner.jpg")
+    background-image:url("../img/bg-sidebar-banner.jpg");
+    background-repeat:no-repeat;
 }
 
 /*article banner*/
@@ -141,7 +149,7 @@ html {
 
 .sub-articles ul li {
     width:30%;
-    height:300px;
+    min-height:500px;
     margin:20px 4% 20px 0px;
     list-style-type:none;
     display:inline-block;
@@ -167,4 +175,46 @@ span.pill {
 
 .sub-article-banner > img {
     width:100%;
+}
+
+/*main footer*/
+
+.footer-container {
+    display:block;
+    clear:both;
+    width:100%;
+    overflow:auto;
+    background-color:#CCC;
+}
+.footer-container > span {
+    display:block;
+    margin:0 auto 20px;
+    text-align:center;
+}
+
+/*card list items*/
+
+.card-list, .footer-links {
+    text-align:center;
+    margin:30px auto;
+}
+
+.card-list li, .footer-links li {
+    display:inline-block;
+    margin-right:10px;
+}
+
+.card-list li:last-child {
+    margin-right:0px;
+}
+
+.footer links li a {
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.footer-text {
+    text-align:center;
+    margin:10px auto 20px;
+    max-width:60%;
 }
