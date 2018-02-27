@@ -61,15 +61,16 @@ html {
     background-image:url('../img/slider/bg-slider1.jpg');
     background-repeat:no-repeat;
     background-size:cover;
+    margin-top:40px;
 }
 
 /* main container */
 
 .main-container {
     width:80%;
-    height:100%;
-    background-color:green;
+    height:auto;
     margin:0 auto;
+    overflow:auto;
 }
 
 /*top banner*/
@@ -80,6 +81,7 @@ html {
     background-image:url("../img/sm-top-banner.png");
     background-repeat:no-repeat;
     background-size:cover;
+    margin: 20px auto;
 }
 
 /* main content container */
@@ -90,20 +92,17 @@ html {
 }
 
 .content {
-    width:70%;
+    width:72.5%;
     height:100%;
-    padding:1% 2.5%;
+    padding:0% 2.5% 0% 0%;
     float:left;
-    background-color:purple;
 }
 
 
 /*sidebar*/
 .right-sidebar {
-    width:20%;
-    height:100%;
-    padding:1% 2.5%;
-    background-color:orange;
+    width:25%;
+    height:1000px;
     float:right;
 }
 
@@ -118,7 +117,8 @@ html {
 .sidebar-banner {
     width:100%;
     height:100%;
-    background-image:url("../img/bg-sidebar-banner.jpg")
+    background-image:url("../img/bg-sidebar-banner.jpg");
+    background-repeat:no-repeat;
 }
 
 /*article banner*/
@@ -167,4 +167,14 @@ span.pill {
 
 .sub-article-banner > img {
     width:100%;
+}
+
+/*main footer*/
+
+.footer-container {
+    display:block;
+    clear:both;
+    width:100%;
+    height:90px;
+    background-color:#CCC;
 }
