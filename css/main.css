@@ -9,6 +9,10 @@ html {
     height:100%;
 }            
             
+hgroup {
+    width:100%;
+    height:100%;
+}
 .main-header {
     width:100%;
     height:80px;
@@ -18,6 +22,10 @@ html {
     width:80%;
     height:80px;
     margin:0 auto;
+}
+
+.element-style {
+    margin:25px 0px 20px;
 }
 
 .app-logo {
@@ -141,7 +149,7 @@ html {
 
 .sub-articles ul li {
     width:30%;
-    height:300px;
+    min-height:500px;
     margin:20px 4% 20px 0px;
     list-style-type:none;
     display:inline-block;
@@ -180,7 +188,7 @@ span.pill {
 }
 .footer-container > span {
     display:block;
-    margin:0 auto;
+    margin:0 auto 20px;
     text-align:center;
 }
 
@@ -203,4 +211,10 @@ span.pill {
 .footer links li a {
     text-decoration:none;
     font-weight:bold;
+}
+
+.footer-text {
+    text-align:center;
+    margin:10px auto 20px;
+    max-width:60%;
 }
