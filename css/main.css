@@ -178,3 +178,8 @@ span.pill {
     height:90px;
     background-color:#CCC;
 }
+.footer-container > span {
+    display:block;
+    margin:0 auto;
+    text-align:center;
+}
